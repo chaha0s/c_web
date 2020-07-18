@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: white;
+}
+h1 {
+  margin-bottom: 15px;
+}
+.heading{
+  margin: 25px 0px;
+}
+.main-body{
+  height:1000px;
+}
+.navbar{
+  background-color: #A9A9A9;
+}
+.navbar-brand a:hover,.navbar-brand a:focus{
+  text-decoration: none;
+}
+.box{
+  background-color: #A9A9A9;
+  height:auto;
+  border: 1px solid black;
+  margin: 10px;
+}
+.box-content{
+  clear: right;
+  margin: 20px;
+}
+.red{
+  background-color: #FFA07A;
+}
+.yellow{
+    background-color: #CD5C5C;
+    color: white;
+}
+.green{
+  background-color: #F0E68C;
+}
+.small-box{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: bold;
+  float:right;
+  height:auto;
+  width:180px;
+  border: 1px solid black;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+}
+
+/********** PC devices only **********/
+@media (min-width: 992px) {
+}
+
+/********** Tablets devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+}
+/********** Mobiles devices only **********/
+@media (max-width: 767px) {
+}
